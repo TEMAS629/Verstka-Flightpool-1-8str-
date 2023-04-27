@@ -1,0 +1,625 @@
+@font-face {
+    font-family: 'Roboto, Bold';
+    src: url(font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Italic';
+    src: url(font/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Light';
+    src: url(font/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Semibold';
+    src: url(font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Regular';
+    src: url(font/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    display: block;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.alignfull {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(180deg, rgba(35, 145, 193, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 40px;
+    align-items: center;
+}
+
+.test-0-nav-1,
+.test-0-nav-2,
+.test-0-nav-3,
+.test-0-nav-4 {
+    font-size: 20px;
+    font-family: 'Roboto, Regular';
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.test-0-nav-1:hover {
+    color: white;
+}
+
+.test-0-nav-2:hover {
+    color: white;
+}
+
+.test-0-nav-3:hover {
+    color: white;
+}
+
+.test-0-nav-4:hover {
+    color: white;
+}
+
+#book {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#book .container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.title {
+    font-family: 'Roboto, Bold';
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+
+.book {
+    padding: 3%;
+}
+
+.random {
+    display: flex;
+}
+
+.left-side {
+    width: 50%;
+}
+
+.date {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.input_date_number {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button_date_number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+
+.date_input,
+.number_input {
+    width: 250px;
+    height: 50px;
+    border: 1px solid #000;
+}
+
+.number {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+}
+
+.text_input {
+    font-family: 'Roboto, Regular';
+    font-size: 24px;
+    color: black;
+    padding-bottom: 5%;
+}
+
+.btn_book {
+    background-color: #3095CA;
+    font-family: 'Roboto, Bold';
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 22.5px;
+    width: 180px;
+    height: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+}
+
+.btn_book:hover {
+    background-color: white;
+    color: #000;
+    border: 1px solid #00000046;
+}
+
+.right-side {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.price_change,
+.probability {
+    width: 90%;
+    padding: 2%;
+}
+
+.text_price,
+.text_probability {
+    font-family: 'Roboto, Regular';
+    font-size: 24px;
+    color: black;
+    text-align: center;
+}
+
+.booking_price {
+    height: 15px;
+    border-radius: 7px;
+    background-color: #DBF2F7;
+}
+
+.booking_probability {
+    height: 15px;
+    border-radius: 7px;
+    background-color: #DBF2F7;
+}
+
+#trust {
+    background-image: url(img/background-trust.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 785px;
+
+}
+
+.trust {
+    text-align: center;
+    padding: 3%;
+}
+
+.lider {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+#trust .container {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60%;
+}
+
+.great,
+.problem,
+.respect,
+.money {
+    font-family: 'Roboto, Bold';
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+
+.great {
+    width: 30%;
+}
+
+.problem {
+    width: 20%;
+}
+
+.respect {
+    width: 20%;
+}
+
+.money {
+    width: 30%;
+}
+
+#search {
+    width: 100%;
+    height: 770px;
+}
+
+#search .container {
+    width: 70%;
+    height: 75%;
+    margin: 0 auto;
+}
+
+.search {
+    width: 100%;
+    height: 100%;
+    background-image: url(img/background-search.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.poisk {
+    padding: 3%;
+}
+
+.entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.out_in {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.there_back {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+}
+
+.out,
+.in,
+.there,
+.back {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.text_input1 {
+    font-family: 'Roboto, Bold';
+    font-size: 20px;
+    color: black;
+    padding: 1%;
+}
+
+.test-0-fd,
+.test-0-fa,
+.test-0-fdt,
+.test-0-fat {
+    width: 250px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-family: 'Roboto, Semibold';
+    font-size: 14px;
+    color: black;
+    padding: 3%;
+}
+
+.title_search {
+    font-family: 'Roboto, Bold';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+}
+
+.test-0-fnp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    padding: 7%;
+}
+
+.range_lider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.max_passenger {
+    width: 15px;
+    height: 15px;
+    background-color: #3095CA;
+}
+
+.button_search {
+    display: flex;
+    justify-content: center;
+}
+
+.test-0-fbs {
+    background-color: #3095CA;
+    font-family: 'Roboto, Bold';
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 22.5px;
+    width: 270px;
+    height: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+}
+
+.test-0-fbs:hover {
+    background-color: white;
+    color: #000;
+}
+
+#promotion {
+    width: 100%;
+    height: 740px;
+}
+
+#promotion .container {
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.promotion {
+    padding: 3%;
+}
+
+.promotion_1,
+.promotion_2,
+.promotion_3,
+.promotion_4 {
+    width: 250px;
+    height: 470px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDE9F2;
+}
+
+.test-0-an {
+    font-family: 'Roboto, SemiBold';
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.test-0-ai {
+    width: 225px;
+    height: 170px;
+}
+
+.img1 {
+    background-image: url(img/promotion1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url(img/promotion2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(img/promotion3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url(img/promotion4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.test-0-ad {
+    font-family: 'Roboto, Regular';
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 225px
+}
+
+.promotion_2 {
+    padding-bottom: 4%;
+}
+
+.promotion_3 {
+    padding-bottom: 5%;
+}
+
+.promotion_4 {
+    padding-bottom: 2%;
+}
+
+.btn_center {
+    display: flex;
+    justify-content: center;
+    padding-top: 9%;
+}
+
+.test-0-abm {
+    background-color: #3095CA;
+    font-family: 'Roboto, Bold';
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 12.5px;
+    width: 160px;
+    height: 40px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+}
+
+.test-0-abm:hover {
+    background-color: white;
+    color: #000;
+    border: 1px solid #00000046;
+}
+
+#close_promotions {
+    width: 100%;
+    height: 810px;
+    background-image: url(img/background_close_promotions.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#close_promotions .title {
+    color: white;
+}
+
+#close_promotions .container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.close_promotions {
+    padding: 20%;
+}
+
+.test-0-sie {
+    width: 510px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 12px;
+    font-family: 'Roboto, Semibold';
+    font-size: 14px;
+    color: black;
+    padding: 3%;
+}
+
+.e-mail_input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto, Bold';
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+
+.test-0-sbs {
+    background-color: #3095CA;
+    font-family: 'Roboto, Bold';
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 12.5px;
+    width: 250px;
+    height: 50px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+}
+
+.test-0-sbs:hover {
+    background-color: white;
+    color: #000;
+}
+
+.btn_close_promotions {
+    font-family: 'Roboto, Regular';
+    font-size: 12px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    float: right;
+    width: 300px;
+    padding: 7%;
+}
+
+#footer {
+    background: linear-gradient(0deg, rgba(35, 145, 193, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    width: 100%;
+    height: 400px;
+}
+
+.title_footer {
+    font-family: 'Roboto, Bold';
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    padding: 5%;
+}
+
+.test-0-phone {
+    font-family: 'Roboto, Bold';
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+    padding: 1%;
+}
+
+#footer nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.menu {
+    font-family: 'Roboto, Bold';
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+
+.menu:hover {
+    color: white;
+}
+
+#footer .container {
+    width: 60%;
+    margin: 0 auto;
+}
