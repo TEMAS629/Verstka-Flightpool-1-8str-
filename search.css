@@ -1,0 +1,299 @@
+@font-face {
+    font-family: 'Roboto, Bold';
+    src: url(font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Italic';
+    src: url(font/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Light';
+    src: url(font/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Semibold';
+    src: url(font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Regular';
+    src: url(font/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    display: block;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.alignfull {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(180deg, rgba(35, 145, 193, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 40px;
+    align-items: center;
+}
+
+.test-0-nav-1,
+.test-0-nav-2,
+.test-0-nav-3,
+.test-0-nav-4 {
+    font-size: 20px;
+    font-family: 'Roboto, Regular';
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.test-0-nav-1:hover {
+    color: white;
+}
+
+.test-0-nav-2:hover {
+    color: white;
+}
+
+.test-0-nav-3:hover {
+    color: white;
+}
+
+.test-0-nav-4:hover {
+    color: white;
+}
+
+#search {
+    width: 100%;
+    height: 1300px;
+    background-color: #EEF9FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title_search_result {
+    font-family: 'Roboto, Bold';
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    padding: 3%;
+}
+
+#search .container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.there {
+    width: 1050px;
+    height: 500px;
+    background-color: #DBF2F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    margin: 3%;
+}
+
+.title_there {
+    font-family: 'Roboto, Bold';
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    padding: 2%;
+}
+
+.main_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_together {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.card {
+    width: 460px;
+    height: 380px;
+    background-image: url(img/background_card.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #000;
+}
+
+.test-4-fn {
+    font-family: 'Roboto, Bold';
+    font-size: 16px;
+    color: black;
+    text-align: center;
+    padding: 0 0 10% 0;
+}
+
+.test-4-at {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    height: 30%;
+    padding: 0 0 7% 0;
+}
+
+.img_card {
+    width: 37%;
+}
+
+.name_img {
+    width: 60%;
+    text-align: center;
+    font-family: 'Roboto, Semibold';
+    font-size: 16px;
+    color: black;
+}
+
+.time {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.test-4-dd,
+.test-4-ft,
+.test-4-at {
+    font-family: 'Roboto, Bold';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 2%;
+}
+
+.test-4-fp {
+    width: 50%;
+    float: left;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.name_price {
+    font-family: 'Roboto, Light';
+    font-size: 20px;
+    color: black;
+}
+
+.price_num {
+    font-family: 'Roboto, Semibold';
+    font-size: 20px;
+    color: black;
+}
+
+.test-4-bsb {
+    background-color: #3095CA;
+    font-family: 'Roboto, Bold';
+    font-size: 16px;
+    color: white;
+    border: none;
+    border-radius: 22.5px;
+    width: 250px;
+    height: 35px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    transition: 0.2s ease-in-out;
+}
+.test-4-bsb:hover{
+    background-color: white;
+    color: #000;
+}
+
+
+.btn {
+    width: 250px;
+    height: 35px;
+}
+
+.booking {
+    width: 100%;
+    padding-left: 2%;
+}
+
+#footer {
+    background: linear-gradient(0deg, rgba(35, 145, 193, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    width: 100%;
+    height: 400px;
+}
+
+.title_footer {
+    font-family: 'Roboto, Bold';
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    padding: 5%;
+}
+
+.test-0-phone {
+    font-family: 'Roboto, Bold';
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+    padding: 1%;
+}
+
+#footer nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.menu {
+    font-family: 'Roboto, Bold';
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+
+.menu:hover {
+    color: white;
+}
+
+#footer .container {
+    width: 60%;
+    margin: 0 auto;
+}
