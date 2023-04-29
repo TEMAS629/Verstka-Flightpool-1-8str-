@@ -1,0 +1,458 @@
+@font-face {
+    font-family: 'Roboto, Bold';
+    src: url(font/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Italic';
+    src: url(font/Roboto-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Light';
+    src: url(font/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Semibold';
+    src: url(font/Roboto-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto, Regular';
+    src: url(font/Roboto-Regular.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1920px;
+    display: block;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+.alignfull {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+#header {
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(180deg, rgba(35, 145, 193, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    height: 40px;
+    align-items: center;
+}
+
+.test-0-nav-1,
+.test-0-nav-2,
+.test-0-nav-3,
+.test-0-nav-4 {
+    font-size: 20px;
+    font-family: 'Roboto, Regular';
+    color: black;
+    transition: 0.2s ease-in-out;
+}
+
+.test-0-nav-1:hover {
+    color: white;
+}
+
+.test-0-nav-2:hover {
+    color: white;
+}
+
+.test-0-nav-3:hover {
+    color: white;
+}
+
+.test-0-nav-4:hover {
+    color: white;
+}
+
+#booking {
+    width: 100%;
+    background-color: #EEF9FF;
+    height: 1100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_booking {
+    font-family: 'Roboto, Bold';
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+}
+
+.info_booking {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.info_flight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 75%;
+}
+
+.test-5-fc {
+    font-family: 'Roboto, Light';
+    font-size: 20px;
+    color: black;
+    text-align: start;
+}
+
+.all_flight {
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    width: 40%;
+    background: #F1FAFC;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+}
+
+.time_place {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vilet,
+.prilet {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.vilet_text {
+    font-family: 'Roboto, Regular';
+    font-size: 16px;
+    color: black;
+    text-align: start;
+}
+
+.vilet_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.time {
+    font-family: 'Roboto, Regular';
+    font-size: 20px;
+    color: #3095CA;
+    text-align: center;
+}
+
+.place {
+    font-family: 'Roboto, Regular';
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+}
+
+.date {
+    font-family: 'Roboto, Regular';
+    font-size: 14px;
+    color: #000000;
+    text-align: center;
+}
+
+.test-5-fp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 20%;
+}
+
+.text_price_flight {
+    font-family: 'Roboto, Regular';
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+}
+
+.info_price_flight {
+    font-family: 'Roboto, Regular';
+    font-size: 20px;
+    color: #3095CA;
+    width: 160px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    background: rgba(255, 255, 255, 0.47);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 41px;
+}
+
+.info_passanger {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info_passenger_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
+    background: #F1FAFC;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    padding: 4%;
+}
+
+.text_info_passenger {
+    font-family: 'Roboto, Regular';
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    padding: 3%;
+}
+
+.button_plus {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.test-5-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #CDE9F2;
+    font-size: 40px;
+    font-family: 'Roboto, Regular';
+    color: black;
+    border-radius: 30px;
+    width: 100%;
+    height: 100%;
+    transition: 0.6s ease-in-out;
+    
+}
+.test-5-add:hover{
+    transform: rotate(360deg);
+}
+
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 1.5;
+    width: 100%;
+}
+
+.test-5-name,
+.test-5-last,
+.test-5-dob,
+.test-5-doc,
+.text_name {
+    font-family: 'Roboto, Regular';
+    font-size: 16px;
+    color: black;
+    padding: 1%;
+}
+
+.info_name {
+    font-family: 'Roboto, Regular';
+    font-size: 16px;
+    color: black;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 25px;
+    border: 1px solid #000000;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}
+
+.info_name_pas {
+    width: 100%;
+    height: 25px;
+}
+
+.test-5-price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 25%;
+}
+
+.text_prise_all {
+    font-family: 'Roboto, Regular';
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    padding: 3%;
+}
+
+.info_price_all {
+    font-family: 'Roboto, Regular';
+    font-size: 24px;
+    color: #3095CA;
+    background-color: #FFFFFF;
+    width: 185px;
+    height: 40px;
+    border-radius: 41px;
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.button_price {
+    width: 300px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+}
+
+.test-5-book {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #3095CA;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 41px;
+    font-family: 'Roboto, Regular';
+    font-size: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+    transition: 0.2s ease-in-out;
+}
+.test-5-book:hover{
+    background-color: white;
+    color: #000;
+    border: 1px solid #0000003b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#footer {
+    background: linear-gradient(0deg, rgba(35, 145, 193, 1) 0%, rgba(255, 255, 255, 1) 100%);
+    width: 100%;
+    height: 400px;
+}
+
+.title_footer {
+    font-family: 'Roboto, Bold';
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+    padding: 5%;
+}
+
+.test-0-phone {
+    font-family: 'Roboto, Bold';
+    font-size: 32px;
+    color: #000;
+    text-align: center;
+    padding: 1%;
+}
+
+#footer nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5%;
+}
+
+.menu {
+    font-family: 'Roboto, Bold';
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    transition: 0.2s ease-in;
+}
+
+.menu:hover {
+    color: white;
+}
+
+#footer .container {
+    width: 60%;
+    margin: 0 auto;
+}

@@ -88,170 +88,124 @@ nav {
     color: white;
 }
 
-#profile {
+#seat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 100%;
-    background-color: #EEF9FF;
-    height: 900px;
-}
-.fon{
-    width: 100%;
-    height: 1100px;
     background-color: #EEF9FF;
 }
 
-#profile .container {
-    width: 80%;
-    height: 1100px;
-    margin: 0 auto;
+.title_seat {
+    font-family: 'Roboto, Bold';
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    padding: 3%;
+}
+
+.info_seat {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.info_shema {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.free_place,
+.lock_place,
+.this_place,
+.out {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%;
+}
+
+.visual_free {
+    width: 49px;
+    height: 43px;
+    background: #828282;
+    margin: 5%;
+}
+
+.visual_lock {
+    width: 49px;
+    height: 43px;
+    background: #CACACA;
+    margin: 5%;
+}
+
+.visual_this {
+    width: 49px;
+    height: 43px;
+    background: #828282;
+    border: 5px solid #94CEDB;
+    margin: 5%;
+}
+
+.visual_out {
+    width: 37px;
+    height: 63px;
+    background: #B7B7B7;
+    margin: 5%;
+}
+
+.name_seat {
+    width: 612px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text_mesto {
+    font-family: 'Roboto, Regular';
+    font-size: 20px;
+    color: black;
+    text-align: start;
+    padding: 3%;
+}
+
+.button_seat {
+    width: 243px;
+    height: 48px;
+    display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.info_person {
-    width: 60%;
-    height: 30%;
-    background-color: #CDE9F2;
-    border-radius: 10px;
-    filter: drop-shadow(3px 5px 3px #00000044);
-}
-
-.info_name {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 5%;
-}
-.name_info{
-    font-family: 'Roboto, Regular';
-    font-size: 16px;
-    color: black;
-    background-color: #FFFFFF;
-    width: 360px;
-    height: 40px;
-    border: 1px solid #000000;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 1%;
-}
-.name_text{
-    font-family: 'Roboto, Regular';
-    font-size: 16px;
-    color: black;
-}
-.num_info{
-    font-family: 'Roboto, Regular';
-    font-size: 16px;
-    color: black;
-    background-color: #FFFFFF;
-    width: 100px;
-    height: 40px;
-    border: 1px solid #000000;
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 1%;
-}
-.test-3-name,
-.test-3-last {
-   display: flex;
-   justify-content: start;
-   align-items: start;
-   flex-direction: column;
-   width: 50%;
-}
-
-.test-3-num {
-    display: flex;
-   justify-content: start;
-   align-items: start;
-   flex-direction: column;
-}
-
-.many_flight {
-    float: right;
-    font-family: 'Roboto, Bold';
-    font-size: 20px;
-    color: black;
-}
-
-.test-3-logout {
+.btn_seat {
     width: 200px;
     height: 40px;
-    background-color: #3095CA;
+    background: #3095CA;
     border-radius: 24px;
-    font-family: 'Roboto, Bold';
+    font-family: 'Roboto';
     font-size: 20px;
-    line-height: 24px;
     text-align: center;
     border: none;
     color: #FFFFFF;
     float: right;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     transition: 0.2s ease-in-out;
-}
-.test-3-logout:hover{
-    background-color: white;
-    color: #000;
-}
-.log_out{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: end;
-    padding: 3%;
-}
-.logout_all{
-    width: 30%;
-    height: 40%;
-    display: flex;
-    flex-direction: column;
-    float: right;
-}
-.title_achivment{
-    font-family: 'Roboto, Bold';
-    font-size: 32px;
-    color: black;
-    text-align: center;
-    padding: 5%;
-}
-
-.info_booking{
-    width: 40%;
-    height: 30%;
-    background-color: #CDE9F2;
-    border-radius: 10px;
-    filter: drop-shadow(3px 5px 3px #00000044);
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.test-3-code,
-.test-3-d1,
-.test-3-t1,
-.test-3-t2,
-.test-3-from,
-.test-3-to{
-    font-family: 'Roboto, Light';
-    font-size: 24px;
-    color: black;
-    text-align: start;
-    padding: 1%;
+.btn_seat:hover{
+    background-color: white;
+    color: #000;
 }
-table{
-    width: 80%;
-}
-
-td{
-    border: 1px solid #0000002a;
-}
-
-
 
 
 
